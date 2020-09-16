@@ -1,0 +1,18 @@
+package Practice1.SeleniumMavenProject;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class HandlingCalendar_Test {
+	
+	@Test
+	public void HandlingCalendar() {
+			
+		String url = "https://www.rahulshettyacademy.com/AutomationPractice/";
+		WebDriver driver = WebdriverSetup.Webdriverconfig(url);
+			
+			
+	}
+	
+
+}

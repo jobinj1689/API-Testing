@@ -1,0 +1,21 @@
+package Practice1.SeleniumMavenProject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class HandlingCalendar_Test {
+	
+	@Test
+	public void HandlingCalendar() {
+			
+		String url = "https://www.path2usa.com/travel-companions/";
+		WebDriver driver = WebdriverSetup.Webdriverconfig(url);
+		
+		driver.findElement(By.xpath("//input[@id = 'travel_from']"))
+			
+			
+	}
+	
+
+}

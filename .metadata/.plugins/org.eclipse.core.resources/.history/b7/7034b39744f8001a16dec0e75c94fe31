@@ -1,0 +1,37 @@
+package Files;
+
+public class ReusableCode {
+
+	public static String AddPlace()
+	{
+		return "{\r\n" + 
+				"  \"location\": {\r\n" + 
+				"    \"lat\": -38.383494,\r\n" + 
+				"    \"lng\": 33.427362\r\n" + 
+				"  },\r\n" + 
+				"  \"accuracy\": 50,\r\n" + 
+				"  \"name\": \"Frontline house\",\r\n" + 
+				"  \"phone_number\": \"(+91) 983 893 3937\",\r\n" + 
+				"  \"address\": \"29, side layout, cohen 09\",\r\n" + 
+				"  \"types\": [\r\n" + 
+				"    \"shoe park\",\r\n" + 
+				"    \"shop\"\r\n" + 
+				"  ],\r\n" + 
+				"  \"website\": \"http://google.com\",\r\n" + 
+				"  \"language\": \"French-IN\"\r\n" + 
+				"}\r\n" + 
+				"";			
+	}
+	
+	public static String UpdatePlace() {
+		
+		return "{\r\n" + 
+				"\"place_id\":\"908619765f5dd7b1b2ba11961d886f4f\",\r\n" + 
+				"\"address\":\"Andheri Mumbai\",\r\n" + 
+				"\"key\":\"qaclick123\"\r\n" + 
+				"}";
+	}
+
+	
+
+}

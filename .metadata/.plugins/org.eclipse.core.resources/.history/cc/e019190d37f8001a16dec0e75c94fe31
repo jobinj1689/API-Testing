@@ -1,0 +1,15 @@
+package APIAutomation;
+
+public class API_Automation_Practice {
+
+	public static void main(String[] args) {
+		
+		// Validate Add Place api is working fine
+		//Given  -- All inpu details
+		//When   -- Submit the API
+		//Then   -- Validate the Response
+		
+
+	}
+
+}

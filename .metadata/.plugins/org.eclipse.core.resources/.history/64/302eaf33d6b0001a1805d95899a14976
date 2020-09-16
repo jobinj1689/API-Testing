@@ -1,0 +1,31 @@
+package Utilities;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.ExtentReports;
+
+public class ExtentReportsTest {
+
+	static ExtentReports extent;
+	
+	public static ExtentReports Reports() {
+		
+		String path = System.getProperty("user.dir") + "\\reports\\index.html";
+		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+		reporter.config().setReportName("Maven Project Report");
+		reporter.config().setDocumentTitle("Test Results");
+		
+		extent = new ExtentReports();
+		extent.attachReporter(reporter);
+		extent.setSystemInfo("Tester", "JOJO");
+		
+		return extent;
+	}
+	
+	public static void ReportsFlush() {
+		
+		extent.flush();
+	}
+	
+	
+	
+}

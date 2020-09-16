@@ -1,0 +1,12 @@
+package Utility;
+
+public class ExtentReports {
+
+	public static void Reports() {
+		
+		String path = System.getProperty("user.dir") + "\\reports\\index.html";
+	}
+	
+	
+	
+}

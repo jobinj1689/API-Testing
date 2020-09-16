@@ -1,0 +1,37 @@
+package Practice1.SeleniumMavenProject;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class HandlingCalendar_Test {
+	
+	@Test
+	public void HandlingCalendar() {
+			
+		String url = "https://www.path2usa.com/travel-companions/";
+		WebDriver driver = WebdriverSetup.Webdriverconfig(url);
+		
+		//driver.findElement(By.xpath("//input[@id = 'travel_from']")).sendKeys(keysToSend);
+			
+		driver.findElement(By.xpath("//input[@id='travel_date']")).click();
+		List<WebElement> days = driver.findElements(By.className("day"));	
+		
+		int count = driver.findElements(By.className("day")).size();
+		
+		for(int i=0; i< count; i++)
+		{
+			String returneddate = driver.findElements(By.className("day")).get(i).getText();
+			
+			if() {returneddate == "27"}
+			
+			
+		}
+		
+	}
+	
+
+}
