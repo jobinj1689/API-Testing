@@ -111,5 +111,6 @@
 	<classpathentry kind="lib" path="F:/Softwares/Rest Assured API for Automation testing/xml-path-4.3.1-dist/docs/rest-assured-common-4.3.1-sources.jar"/>
 	<classpathentry kind="lib" path="F:/Softwares/Rest Assured API for Automation testing/xml-path-4.3.1-dist/docs/xml-path-4.3.1-javadoc.jar"/>
 	<classpathentry kind="lib" path="F:/Softwares/Rest Assured API for Automation testing/xml-path-4.3.1-dist/docs/xml-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/Softwares/testng-7.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

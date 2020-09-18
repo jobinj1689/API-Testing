@@ -1,6 +1,7 @@
 package Files;
 
 import APIAutomation.API_Automation_Practice;
+import io.restassured.path.json.JsonPath;
 
 public class ReusableCode extends API_Automation_Practice {
 
@@ -23,6 +24,13 @@ public class ReusableCode extends API_Automation_Practice {
 				"  \"language\": \"French-IN\"\r\n" + 
 				"}\r\n" + 
 				"";			
+	}
+	
+	public static JsonPath Raw_To_JSON (String response) {
+		
+		JsonPath js1 = new JsonPath(response);
+		return js1;
+		
 	}
 	
 
